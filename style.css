@@ -3,73 +3,70 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
-  background-color: #3263cf;
+  background-color: black;
   color: white;
-  font-family: "Cormorant Garamond", serif;
   text-align: center;
+  width: 100%;
+  height: 100vh;
 }
-
 .mindful-app {
-  padding: 10px;
+  padding: 15px;
+  font-family: "Open Sans", sans-serif;
+  max-width: 320px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
-
 .heading h1 {
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 5px;
   padding: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 10%;
+  font-family: "Cormorant Garamond", serif;
 }
 .time-selections {
   font-size: 18px;
 }
-
-.time-selections a {
+.time-selections span {
+  color: #888;
+  font-size: 16px;
+}
+.time-selections a,
+.reset-control a {
   text-decoration: none;
   margin: 25px auto;
-  box-shadow: 1px 3px 15px #002169;
 }
-
 .time-selections p {
-  margin: 10px auto 30px;
+  margin: 10px auto 20%;
 }
-
 .btn {
   display: block;
   width: 225px;
-  padding: 10px 20px;
+  padding: 20px;
   background-color: white;
-  color: lightslategray;
-  margin: 15px auto;
+  color: #03545a;
+  border-radius: 2px;
 }
-
-.control-button {
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  border: 1px solid white;
-  margin: 0 auto;
-  position: relative;
-  background-color: white;
-}
-
-.control-button img {
-  position: absolute;
-  top: 25%;
-  left: 35%;
-}
-
 .time-status p {
   font-family: "Amiri", serif;
-  font-size: 100px;
+  font-size: 125px;
+  line-height: 150px;
+  margin: 10% auto;
 }
-
 .session {
   display: none;
 }
-
 .reset-control {
   color: whitesmoke;
+}
+.footer {
+  position: absolute;
+  bottom: 20px;
+  right: 50%;
+  font-family: "Open Sans", sans-serif;
+  transform: translate(50%, 0);
 }

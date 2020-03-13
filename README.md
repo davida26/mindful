@@ -25,3 +25,8 @@ This is the first web app in the 30 web apps in 30 days series.
 ## What I Learned
 
 - the ^ shortcut in mac is the `control` key, always guessed around - super simple now I will remember.
+- Windows VSCode with GitBash is a pain, permission errors due to WindowsApps
+- pythons simple http server works fine but wont bind to eth0 for some reason, I need to check this Win machine
+- need to cover arrow functions as they are more compact
+- window.onload vs document.addEventListener("DOMContentLoaded", function() {});
+- document.title for changing the window title top, nice for alerts
